@@ -1,4 +1,4 @@
-# ❤Heart Risk Predictor 
+# Heart Risk Predictor 
 
 This is the backend of a heart disease risk prediction application.  
 It is built with **FastAPI** and uses a **pre-trained logistic regression model** (`logistic_model.pkl`) to make predictions based on user health data.
@@ -10,7 +10,7 @@ It is built with **FastAPI** and uses a **pre-trained logistic regression model*
 -  Fully compatible with a React frontend
 -  Model trained using [heart.csv](./heart.csv)
 
-## 📥 Installation
+##  Installation
 
 > Requires Python 3.8+
 
@@ -21,7 +21,7 @@ git clone https://github.com/yourusername/heart-risk-predictor.git
 ```bash
 cd heart-risk-predictor
 ```
-🚀 Run the API Server
+Run the API Server
 ```bash
 uvicorn main:app --reload --port 8002
 ```
