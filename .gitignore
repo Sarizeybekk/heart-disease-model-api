@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pkl
+*.joblib
+*.sqlite3
+*.db
+
+# Virtual environments
+venv/
+env/
+.venv/
+.ENV/
+ENV/
+
+# Jupyter / notebooks (opsiyonel)
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE'ler
+.idea/
+*.swp
+
+# Uvicorn reload cache
+reload/
+
+# Secret config (env varsa)
+.env
+
+# MyPy / Linting
+.mypy_cache/
+.pytest_cache/
+
+# Pycharm
+*.iml
+
+# Test cache
+__testcache__/
