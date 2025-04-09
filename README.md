@@ -2,6 +2,7 @@
 
 This is the backend of a heart disease risk prediction application.  
 It is built with **FastAPI** and uses a **pre-trained logistic regression model** (`logistic_model.pkl`) to make predictions based on user health data.
+
 ##  Features
 
 -  Machine Learning-powered logistic regression model
